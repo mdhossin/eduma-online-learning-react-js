@@ -1,4 +1,4 @@
-# Welcome to the EDUMA Educational Programming leaning website
+# Welcome to the EDUMA Educational Programming website
 
 - Please visit the website and start learning (https://programming-educational-website.netlify.app/)
 - Here have best instructor for this educational learning how to learn programming in the best way
