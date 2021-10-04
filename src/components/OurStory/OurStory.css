@@ -1,0 +1,16 @@
+/* our story page css style here */
+.cards {
+    border-right: 1px solid #b9b9b9;
+}
+.about-more {
+    border-left: 3px solid #FFB606;
+    padding-left: 20px;
+}
+
+.about-detail p{
+    text-align: justify;
+}
+
+.story-heading h2{
+    color: #FFB606;
+}

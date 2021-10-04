@@ -1,0 +1,22 @@
+/* set the about us section background image */
+.backgrund-image{
+    background-image: url(../../../src/images/about.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+    ;
+    height: 350px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+/*  */
+.about-text{
+color: #e0dfdf;
+}
+.about-us{
+    padding-top: 100px;
+}
+
+

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "615a7a213579881f82579876",
+    "name": "Keny White",
+    "course": "HTML5/CSS3 Essentials in 4-Hours",
+    "image": "https://eduma.thimpress.com/demo-3/wp-content/uploads/sites/19/2015/06/course-6.jpg",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "price": 36,
+    "enrolled": 26
+  },
+  {
+    "id": "615a7a213579881f82579877",
+    "name": "Hinata Hyuga",
+    "course": "The Art of Black and White Photography",
+    "image": "https://eduma.thimpress.com/demo-3/wp-content/uploads/sites/19/2015/06/course-7.jpg",
+    "description": "Formal analysis is an important technique for organizing visual information. In other words, it is a strategy used to translate what you see into written words. This strategy can be applied to any work of art, from any period in history, whether a photograph, sculpture, painting or cultural artifact.",
+    "price": 55,
+    "enrolled": 27
+  },
+  {
+    "id": "615a7a213579881f82579878",
+    "name": "Anthony",
+    "course": "Introduction to networking for beginners",
+    "image": "https://eduma.thimpress.com/demo-3/wp-content/uploads/sites/19/2015/06/course-12.jpg",
+    "description": "Computers, as we now know, apply to all fields of endeavors, be it agriculture, education, medicine, technology, transportation, and so on. Therefore, there is an obvious need for an organization to have an inter-network of its computers to further aid data sharing and retrieval, and efficient management and use of computing resources.",
+    "price": 50,
+    "enrolled": 10
+  },
+  {
+    "id": "615a7a213579881f82579879",
+    "name": "Dev Jhon",
+    "course": "Your Complete Guide to Photography",
+    "image": "https://eduma.thimpress.com/demo-3/wp-content/uploads/sites/19/2015/06/course-2.jpg",
+    "description": "Our Complete Guide to Photography Book is an easy to digest, comprehensive guide for beginner or intermediate photographers and will fill in the gaps of knowledge the more advanced photographer may have. Using this book will show you how to control every element of your camera and apply the knowledge learnt to any photographic situation, enabling you to create stunning imagery.",
+    "price": 39,
+    "enrolled": 45
+  },
+  {
+    "id": "615a7a213579881f82579880",
+    "name": "John Doe",
+    "course": "Improve Your CSS Workflow with SASS",
+    "image": "https://eduma.thimpress.com/demo-3/wp-content/uploads/sites/19/2015/06/course-3.jpg",
+    "description": "Writing CSS is slow, awkward and take ages to debug. All the other programming languages moved on without it a decade ago but CSS lacks the ability to improve it until the browsers lets us. SASS gives us that power, we can build upon what CSS started without having to change the way we work. In two hours you'll save at least two hours a week writing SASS",
+    "price": 99,
+    "enrolled": 15
+  },
+  {
+    "id": "615a7a213579881f82579881",
+    "name": "Bradman",
+    "course": "Getting Started with LESS – Beginner Crash",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDFMRGQv8KS15dR7xc8zYx2xI03XqM_-lgL6UdBVYZDcdr6x54Ik6FdhST6U4qwwQxnCU&usqp=CAU",
+    "description": "Below you'll find examples, starters, and, most importantly, a super easy and professional way to compile your Less into CSS. Less has a ton of features, so I'll try and cover only the most important pieces to point you in the right direction. Some of things we'll cover:",
+    "price": 94,
+    "enrolled": 45
+  },
+  {
+    "id": "615a7a213579881f82579882",
+    "name": "Sandra",
+    "course": "Complete Beginner to JavaScript Developer",
+    "image": "https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg",
+    "description": "In this course we will start with some of the most basic elements of what happens when you click a link in a browser. From there we will continue through HTML building the foundation that will serve us throughout our journey into JavaScript and beyond.",
+    "price": 59,
+    "enrolled": 25
+  },
+  {
+    "id": "615a7a213579881f82579883",
+    "name": "Martin Kenny",
+    "course": "PHP 5 Introduction to coding Tutorial",
+    "image": "https://eduma.thimpress.com/demo-3/wp-content/uploads/sites/19/2015/06/course-5.jpg",
+    "description": "PHP is an amazing and popular language!It is powerful enough to be at the core of the biggest blogging system on the web (WordPress)! It is deep enough to run the largest social network (Facebook)! It is also easy enough to be a beginner’s first server side language!",
+    "price": 50,
+    "enrolled": 11
+  },
+  {
+    "id": "615a7a213579881f82579884",
+    "name": "Matt Mullenweg",
+    "course": "1-Hour WordPress Basic Tutorial",
+    "image": "https://eduma.thimpress.com/demo-3/wp-content/uploads/sites/19/2015/11/course-9.jpg",
+    "description": "WordPress powers more than 39% of all websites on the internet. It generates thousands of job opportunities around the world, and there are millions of websites making money using WordPress. Apart from economic opportunities, WordPress enables people to share their stories, ideas, build communities and do awesome things.",
+    "price": 39,
+    "enrolled": 8
+  }
+]

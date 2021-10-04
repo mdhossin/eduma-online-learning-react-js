@@ -1,0 +1,32 @@
+/* footer page css style here */
+.backgroun-footer{
+    background-color: #111111;
+    padding: 70px 70px 0 70px;
+}
+.backgroun-footer h4{
+    color: #ffffff;
+    text-align: start;
+    margin-bottom: 22px;
+}
+.backgroun-footer p{
+    color: #999999;
+    line-height: 18px;
+    text-align: start;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -ms-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+.backgroun-footer p:hover{
+    color: #FF920F;
+    cursor: pointer;
+}
+.backgroun-footer .icon{
+    font-size: 25px;
+   color: #999999;
+}
+.footer-icon{
+    font-size: 18px;
+    margin-right: 10px;
+}

@@ -1,0 +1,41 @@
+/* contact us page style here */
+.backgrund-image {
+    background-image: url(../../../src/images/about.jpg),
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 350px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.contact-us{
+    padding: 120px 0;
+}
+.contact-detail{
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+.contact-detail h5{
+    color: #333333;
+}
+.address{
+     border-bottom: 1px solid #eeeeee;
+     margin-top: 15px;
+}
+.email{
+    margin-left: 100px;
+    
+}
+.contact-heading h1{
+    color: #333333;
+}
+.contact-icon{
+    color: #FFB606;
+    margin-right: 10px;
+    font-size: 25px;
+}

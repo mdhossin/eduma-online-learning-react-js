@@ -1,0 +1,20 @@
+/* here single course css style */
+.card-img{
+    width: 800px !important;
+    height: 100%;
+}
+
+.card-footer{
+    border: 1px dotted #d3d2d2;
+    background-color: #fcfcfc;
+    padding-bottom: 0;
+}
+
+.user-icon{
+    color: #9e9c9c;
+}
+.price-color{
+    color: #FF920F;
+    font-style: italic;
+    font-style: 18px;
+}
