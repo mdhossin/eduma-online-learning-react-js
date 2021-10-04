@@ -1,0 +1,13 @@
+.date{
+    font-size: 72px;
+    color: #ffb606;
+    font-weight: bold;
+}
+.detail p{
+    color: #999999;
+}
+
+.event-img img{
+    width: 400px;
+    height: 200px;
+}

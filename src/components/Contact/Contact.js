@@ -25,7 +25,7 @@ const Contact = () => {
       {/* here set the background image of contact us page */}
       <div className="backgrund-image">
         <div className="mx-auto w-50 text-center contact-us">
-          <h1 style={{ color: "white" }}>Contact us</h1>
+          <h1 style={{ color: "white", paddingBottom: "10px" }}>Contact us</h1>
           <Button variant="outline-warning">Learn More</Button>
         </div>
       </div>

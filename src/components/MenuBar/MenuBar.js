@@ -28,7 +28,7 @@ const MenuBar = () => {
             >
               <Stack direction="horizontal" gap={3}>
                 <NavLink
-                  className="nav-link"
+                  className="nav-link nav-item"
                   to="/home"
                   activeStyle={{
                     fontWeight: "bold",
@@ -38,7 +38,7 @@ const MenuBar = () => {
                   Home
                 </NavLink>
                 <NavLink
-                  className="nav-link"
+                  className="nav-link nav-item"
                   to="/about"
                   activeStyle={{
                     fontWeight: "bold",
@@ -48,7 +48,7 @@ const MenuBar = () => {
                   About Us
                 </NavLink>
                 <NavLink
-                  className="nav-link"
+                  className="nav-link nav-item"
                   to="/courses"
                   activeStyle={{
                     fontWeight: "bold",
@@ -58,7 +58,7 @@ const MenuBar = () => {
                   Courses
                 </NavLink>
                 <NavLink
-                  className="nav-link"
+                  className="nav-link nav-item"
                   to="/blogs"
                   activeStyle={{
                     fontWeight: "bold",
@@ -68,7 +68,7 @@ const MenuBar = () => {
                   Blogs
                 </NavLink>
                 <NavLink
-                  className="nav-link"
+                  className="nav-link nav-item"
                   to="/contact"
                   activeStyle={{
                     fontWeight: "bold",

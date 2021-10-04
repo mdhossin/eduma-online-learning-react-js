@@ -20,7 +20,7 @@ const AboutUs = () => {
             endless with Education.com! Join for free today and browse 30,000+
             worksheets, lesson plans and more.
           </p>
-          <Button variant="outline-warning">Learn More</Button>{" "}
+          <Button variant="outline-warning">Learn More</Button>
         </div>
       </div>
       {/* here display our story page */}

@@ -7,3 +7,6 @@
     font-style: italic;
     color: #3a311f !important;
 }
+.nav-link:hover{
+    color: #141414 !important;
+}

@@ -17,15 +17,17 @@ const Blogs = () => {
       {/* set the backgroun imgae of  blogs page using global css style from contact us css page */}
       <div className="backgrund-image">
         <div className="mx-auto w-50 text-center contact-us">
-          <h1 style={{ color: "white" }}>More Blogs</h1>
+          <h1 style={{ color: "white", paddingBottom: "10px" }}>
+            Read Latest Blogs
+          </h1>
           <Button variant="outline-warning">Learn More</Button>
         </div>
       </div>
 
       <div className="container py-5">
-        <h1 style={{ marginBottom: "20px" }}>{blogsHeading}</h1>
+        <h1 style={{ marginBottom: "40px" }}>{blogsHeading}</h1>
         <Row xs={1} md={1} className="g-4">
-          {blogs.map((blog) => (
+          {blogs.slice(0, 4).map((blog) => (
             <Blog key={blog.id} obj={blog} />
           ))}
         </Row>

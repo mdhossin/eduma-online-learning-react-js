@@ -17,7 +17,7 @@ const Blog = (props) => {
               src={image}
             />
           </div>
-          <div>
+          <div className="w-75">
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Card.Text>

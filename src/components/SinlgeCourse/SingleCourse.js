@@ -13,14 +13,14 @@ const SingleCourse = (props) => {
       {/* show the single card course detail */}
       <Card className="h-100 shadow card-hover">
         <div className="d-flex">
-          <div>
+          <div className="w-50">
             <Card.Img
               className="card-img img-fluid w-100"
               variant="top"
               src={image}
             />
           </div>
-          <div>
+          <div className="w-75">
             <Card.Body>
               <p>Instructor : {name}</p>
               <Card.Title>{course}</Card.Title>

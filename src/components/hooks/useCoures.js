@@ -2,10 +2,15 @@ import { useEffect, useState } from "react";
 // here create the custom and useing anywhere
 const useCourses = () => {
   const [courses, setCourses] = useState([]);
+  // here using async await
   useEffect(() => {
-    fetch("./fakedata.json")
-      .then((res) => res.json())
-      .then((data) => setCourses(data));
+    async function fetchMyAPI() {
+      let response = await fetch("./fakedata.json");
+      response = await response.json();
+      setCourses(response);
+    }
+
+    fetchMyAPI();
   }, []);
   return [courses];
 };

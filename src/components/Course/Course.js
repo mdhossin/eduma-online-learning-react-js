@@ -17,7 +17,7 @@ const Course = (props) => {
           <Card.Title>{course}</Card.Title>
           <Card.Text>
             {description.slice(0, 70)}
-            <Link> Learn more</Link>
+            <Link to="/"> Learn more</Link>
           </Card.Text>
         </Card.Body>
         <div className="d-flex justify-content-between px-3">

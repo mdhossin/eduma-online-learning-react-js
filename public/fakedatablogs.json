@@ -22,5 +22,23 @@
     "title": "Tips to Succeed in an Online Course",
     "image": "https://eduma.thimpress.com/demo-3/wp-content/uploads/sites/19/2016/01/blog-5.jpg",
     "description": "In the past, earning a college degree meant physically attending in-person classes, which often posed challenges for working professionals or those with complicated schedules. Now, thanks to advances in technology, it’s easier than ever to find a degree program that offers the flexibility you need, whether through traditional in-person classes, online learning, or a blend of the two. There are many advantages to online courses; they allow you to learn whenever, wherever, and however works best for you, making it easier to earn a degree while balancing work and family commitments. And without having to attend classes in person, online learning affords you access to top degree programs across the country that might have otherwise been inaccessible or highly inconvenient."
+  },
+  {
+    "id": 5,
+    "title": "Happy New Year 2022",
+    "date": "11 JANUARY",
+    "time" : "8:00 AM - 5:00 PM",
+    "location" : "PARIS, FRENCH",
+    "image": "https://media.istockphoto.com/photos/new-years-eve-holiday-party-pocket-watch-clock-at-midnight-picture-id1285697663?s=612x612",
+    "description": "Finally, this rollercoaster of a year is coming to an end and the anticipation for better times is contagious. People all over the world are already establishing their New Year resolutions and plans. This upcoming year will give us the opportunity to start afresh and work towards rebuilding the world after the pandemic and even bettering ourselves in order to avoid such global suffering again."
+  },
+  {
+    "id": 6,
+    "title": "Elegant Light Box Paper Cut Dioramas",
+    "date": "28 MARCH",
+    "time" : "8:00 AM - 5:00 PM",
+    "location" : "VANCOUVER, CANADA",
+    "image": "https://eduma.thimpress.com/demo-3/wp-content/uploads/sites/19/2015/11/event-2-450x233.jpg",
+    "description": "Over 37 lectures and 55.5 hours of content! LIVE PROJECT End to End Software Testing Training Included. Learn Software Testing and Automation basics from aprofessional trainer from your own desk. Information packed practical training starting from basics to advanced testing techniques. Best suitable for beginners to advanced level users and who learn faster when demonstrated. Course content designed by considering current software testing technology and the job market. Practica assignments at the end of every session. Practical learning experience with live project work and example"
   }
 ]
