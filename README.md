@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Welcome to the EDUMA Educational Programming leaning website
+
+- Please visit the website and start learning (jksdfjd)
+- Here have best instructor for this educational learning how to learn programming in the best way
+- Have support session if any problem you go the support session you solve your problem
+- Blogs have and many more you to up there link and feel free to use about your favourite course
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,4 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # review-website-mdhossin

@@ -2,7 +2,7 @@
 /* here set home page css style */
 .backgrund-img {
     background-image: url(../../../src/images/about.jpg),
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: 550px;
     width: 100%;
     background-blend-mode: overlay;
