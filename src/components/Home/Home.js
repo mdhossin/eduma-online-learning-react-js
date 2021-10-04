@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import useCourses from "../hooks/useCoures";
 import MenuBar from "../MenuBar/MenuBar";
@@ -35,6 +36,11 @@ const Home = () => {
             <SingleCourse key={course.id} obj={course}></SingleCourse>
           ))}
         </Row>
+        <div className="text-center mt-5">
+          <Link to="/courses">
+            <Button variant="warning">See All Courses</Button>
+          </Link>
+        </div>
       </div>
       {/*display footer page */}
       <Footer></Footer>
