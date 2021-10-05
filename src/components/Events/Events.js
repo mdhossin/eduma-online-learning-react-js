@@ -8,9 +8,9 @@ const Events = () => {
   const [blogs] = useBlogs();
   return (
     <div className="events-page">
-      <div className="text-center py-5">
+      <div className="text-center py-5 event-heading">
         <h1>Events</h1>
-        <p>New Event list</p>
+        <small>New Event list</small>
       </div>
       <Row>
         {blogs.slice(4, 6).map((blog) => (

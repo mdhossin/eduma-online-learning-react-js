@@ -10,7 +10,7 @@ import "./Review.css";
 const Review = () => {
   return (
     <div className="container person-img p-5 ">
-      <div className="text-center pb-3">
+      <div className="text-center pb-3 review-heading">
         <h1>WHAT PEOPLE SAY</h1>
         <p>People Reviews here</p>
       </div>

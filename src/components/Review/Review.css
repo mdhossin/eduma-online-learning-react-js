@@ -7,3 +7,10 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.review-heading h1{
+    font-size: 45px;
+    color: #333333;
+}
+.review-heading p{
+    color: #ffb606;
+}
