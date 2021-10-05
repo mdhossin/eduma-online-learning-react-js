@@ -34,7 +34,7 @@ const SingleCourse = (props) => {
                   <span className="me-2">
                     <FontAwesomeIcon icon={faUsers} />
                   </span>
-                  {enrolled}
+                  {enrolled} Student
                 </p>
                 <h6 className="price-color">Price ${price}</h6>
               </div>

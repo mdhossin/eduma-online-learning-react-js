@@ -9,7 +9,7 @@ import Review from "../Review/Review";
 import SingleCourse from "../SinlgeCourse/SingleCourse";
 import "./Home.css";
 
-import sliderOne from "../../images/slider/4.jpg";
+// import sliderOne from "../../images/slider/4.jpg";
 import sliderTwo from "../../images/slider/5.jpg";
 import sliderThree from "../../images/slider/7.jpg";
 
@@ -27,70 +27,70 @@ const Home = () => {
           <Carousel.Item>
             <img
               className="d-block w-100 slider-img"
-              src={sliderOne}
+              src="https://ednuv-ng.envytheme.com/main-banner4.19a5a285324cbd1b9c51.jpg"
               alt="First slide"
             />
             <Carousel.Caption>
-              <div className="mx-auto w-75 text-center  pb-5">
-                <h1 className="main-heading">
-                  Start learning from the
-                  <span
-                    style={{
-                      color: "#FF920F",
-                      paddingBottom: "10px",
-                      marginLeft: "10px",
-                    }}
-                  >
-                    World’s Best Institutions
-                  </span>
+              <div className="mx-auto w-75 text-center pb-5 slider-text">
+                <span className="d-block text-start">
+                  <small>THE FUTURE</small>
+                </span>
+                <h1 className="main-heading text-start">
+                  Online Courses for those who learn differently
                 </h1>
-                <Button variant="outline-warning">Learn More</Button>
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={sliderTwo} alt="Second slide" />
+                <p>
+                  Education can be passport to the future if it does believe.
+                </p>
 
-            <Carousel.Caption>
-              <div className="mx-auto w-75 text-center  pb-5">
-                <h1 className="main-heading">
-                  Create Clean & Professional Multipurpose Landing Page
-                  <span
-                    style={{
-                      color: "#FF920F",
-                      paddingBottom: "10px",
-                      marginLeft: "10px",
-                    }}
-                  >
-                    Now ....
-                  </span>
-                </h1>
-                <Button variant="outline-warning">Learn More</Button>
+                <Button variant="outline-warning">Get Started Now</Button>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-100 slider-img"
+              src={sliderTwo}
+              alt="Second slide"
+            />
+
+            <Carousel.Caption>
+              <div className="mx-auto w-75 text-center pb-5 slider-text">
+                <span className="d-block text-start">
+                  <small>WEAPON IS EDUCATION</small>
+                </span>
+                <h1 className="main-heading text-start">
+                  Transformative Courses for those who learn differently
+                </h1>
+                <p>
+                  EDUMA supports students by introducing collaborators outside
+                  R, interships and research experience abroad.
+                </p>
+
+                <Button variant="outline-warning">View All Courses</Button>
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 slider-img"
               src={sliderThree}
               alt="Third slide"
             />
 
             <Carousel.Caption>
-              <div className="mx-auto w-75 text-center pb-5">
-                <h1 className="main-heading">
-                  Learning how to code can change your life for
-                  <span
-                    style={{
-                      color: "#FF920F",
-                      paddingBottom: "10px",
-                      marginLeft: "10px",
-                    }}
-                  >
-                    Good.
-                  </span>
+              <div className="mx-auto w-75 text-center pb-5 slider-text">
+                <span className="d-block text-start">
+                  <small>WEAPON IS EDUCATION</small>
+                </span>
+                <h1 className="main-heading text-start">
+                  Think out of the box and create a lerning learner
                 </h1>
-                <Button variant="outline-warning">Starts Now to Learn</Button>
+                <p>
+                  EDUMA supports students by introducing collaborators outside
+                  R, interships and research experience abroad.
+                </p>
+
+                <Button variant="outline-warning">View All Courses</Button>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -98,9 +98,9 @@ const Home = () => {
       </div>
       {/* courses sectin here */}
       <div className="all-Courses container py-5">
-        <div className="Course-heading">
-          <h1>Our Courses</h1>
-          <p>Latest Popular Courses Details here</p>
+        <div className="course-heading">
+          <h1>Our Popular Online Courses</h1>
+          <p>Latest Popular Courses here</p>
         </div>
         {/* here using to the map method and call the single course function and pass the props */}
         <Row xs={1} md={2} className="g-4">

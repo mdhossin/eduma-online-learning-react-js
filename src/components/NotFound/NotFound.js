@@ -12,6 +12,7 @@ const NotFound = () => {
         <h1 className="fw-bold ">
           404 <span style={{ color: "#FFB606" }}>ERROR !</span>
         </h1>
+        <h1 className="fw-blod">Page Not Found!</h1>
         <p>
           Sorry, we can't find the page you are looking for. Please go to{" "}
           <span style={{ color: "#FFB606" }}>Home</span> .

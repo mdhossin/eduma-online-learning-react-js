@@ -4,9 +4,10 @@ import React from "react";
 import { Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Course.css";
-
+import Rating from "react-rating";
 const Course = (props) => {
-  const { name, course, image, description, price, enrolled } = props?.obj;
+  const { name, course, image, description, price, enrolled, rating, count } =
+    props?.obj;
   return (
     <div>
       {/* here show the single course detail */}
@@ -20,22 +21,32 @@ const Course = (props) => {
             <Link to="/"> Learn more</Link>
           </Card.Text>
         </Card.Body>
-        <div className="d-flex justify-content-between px-3">
+        {/* here add the rating */}
+        <div className="feature">
+          <Rating
+            emptySymbol="far fa-star"
+            fullSymbol="fas fa-star"
+            initialRating={rating}
+            readonly
+          />
+          <small className="ms-1">{rating}</small>
+          <small className="ms-1">({count})</small>
+        </div>
+        <div className="d-flex justify-content-between price-details">
           <p className="user-icon">
             <span className="me-2">
               <FontAwesomeIcon icon={faUsers} />
             </span>
-            {enrolled}
+            {enrolled} Students
           </p>
-          <h6 className="price-color">Price ${price}</h6>
+          <h5 className="price-color"> ${price}</h5>
         </div>
         <Card.Footer>
           <div className="text-center pb-2">
             <Button className="me-2" variant="outline-warning">
               <FontAwesomeIcon className="me-1" icon={faShoppingCart} />
               Add To Cart
-            </Button>{" "}
-            <Button variant="outline-danger">Details</Button>
+            </Button>
           </div>
         </Card.Footer>
       </Card>

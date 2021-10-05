@@ -1,18 +1,39 @@
-
-.main-heading{
-    color: #e7e7e7fa;
-    font-size: 45px;
-    padding-bottom: 10px;
+/* .banner-section {
+    height: 950px;
+    position: relative;
+    z-index: 1;
+    background-color: var(--mainColor);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://ednuv-ng.envytheme.com/main-banner4.19a5a285324cbd1b9c51.jpg);
+} */
+.course-heading {
+   text-align: center;
+    padding-bottom: 30px;
 }
-.all-Courses h1{
+.course-heading h1 {
     color: #333333;
     text-align: center;
+    font-size: 45px;
 }
+.course-heading p{
+    color: #ffb606;
 
-.carousel img{
-    height: 550px;
 }
 .slider-img{
-    height: 550px !important;
+    height: 600px !important;
  
+}
+
+.slider-text{
+    text-align: start !important;
+}
+.slider-text span {
+    color: #ffb606;
+    font-weight: bold;
+}
+
+.slider-text h1{
+    font-size: 60px !important;
 }

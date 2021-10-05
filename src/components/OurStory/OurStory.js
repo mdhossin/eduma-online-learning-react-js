@@ -52,7 +52,7 @@ const OurStory = () => {
           <Col xs={6} md={6}>
             <h4 className="about-more">WHAT WE DO</h4>
             <p>
-              t's a one-stop website for all the subjects, none of the above
+              It's a one-stop website for all the subjects, none of the above
               portals have these many arenas. Keeping the essence of
               inquisitiveness alive, the portal functions on the common key
               words including the word 'how'.

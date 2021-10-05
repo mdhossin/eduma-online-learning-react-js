@@ -17,3 +17,15 @@
     -ms-transform: scale(.98);
     -o-transform: scale(.98);
 }
+.feature{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.feature .far,
+.fas {
+
+    color: #f7ad02;
+}
+.price-details{
+    margin: 0 20px;
+}
