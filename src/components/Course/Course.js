@@ -1,4 +1,4 @@
-import { faShoppingCart, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faUsers } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Button, Card } from "react-bootstrap";
@@ -44,8 +44,7 @@ const Course = (props) => {
         <Card.Footer>
           <div className="text-center pb-2">
             <Button className="me-2" variant="outline-warning">
-              <FontAwesomeIcon className="me-1" icon={faShoppingCart} />
-              Add To Cart
+              Enroll Now
             </Button>
           </div>
         </Card.Footer>

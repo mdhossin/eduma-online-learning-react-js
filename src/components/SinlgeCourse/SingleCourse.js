@@ -1,7 +1,7 @@
 import { faUsers } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Card, Col } from "react-bootstrap";
+import { Button, Card, Col } from "react-bootstrap";
 import Rating from "react-rating";
 import { Link } from "react-router-dom";
 import "./SingleCourse.css";
@@ -42,8 +42,8 @@ const SingleCourse = (props) => {
                 {description.slice(0, 50)} <Link to="/about"> Learn more</Link>
               </Card.Text>
             </Card.Body>
-            <Card.Footer className="card-footer">
-              <div className="d-flex justify-content-between mx-3">
+            <Card.Footer className="card-footer pb-2">
+              <div className="d-flex justify-content-between mx-1">
                 <p className="user-icon">
                   <span className="me-2">
                     <FontAwesomeIcon icon={faUsers} />
@@ -51,6 +51,9 @@ const SingleCourse = (props) => {
                   {enrolled} Students
                 </p>
                 <h6 className="price-color">Price ${price}</h6>
+              </div>
+              <div className="text-center">
+                <Button variant="outline-warning">Enroll Now</Button>{" "}
               </div>
             </Card.Footer>
           </div>
